@@ -1,9 +1,9 @@
 window.portfolioProjects = [
   {
-    title: "Java II Backend Application",
-    slug: "java-ii-backend-application",
-    description: "Java backend application connected to PostgreSQL that serves as the backend for a client-side web application.",
-    tech: ["Java", "PostgreSQL", "Backend Development"],
+    title: "Java Backend Application",
+    slug: "java-backend-application",
+    description: "Java backend application connected to PostgreSQL supporting a client-side property management system.",
+    tech: ["Java", "Spring Boot", "PostgreSQL"],
     repo: "https://github.com/smozer20-web/java-backend-application",
     ccarr: {
       challenge: "The challenge of this project was creating a backend system that could act as the connection point between a client-side property management application and a PostgreSQL database. The backend needed to handle data storage and retrieval reliably while supporting the needs of the frontend application.",
@@ -15,8 +15,8 @@ window.portfolioProjects = [
   {
     title: "Equipment Rental System",
     slug: "equipment-rental-system",
-    description: ".NET application for managing rental inventory, customer rentals, returns, and equipment tracking.",
-    tech: ["C#", ".NET", "MVC", "Entity Framework"],
+    description: ".NET MVC application for managing rental inventory, customer rentals, returns, and equipment tracking.",
+    tech: ["C#", ".NET MVC", "Entity Framework"],
     repo: "https://github.com/smozer20-web/equipment-rental-system",
     ccarr: {
       challenge: "The challenge of this project was building a complete rental management system that could accurately track inventory, customer rentals, returns, and equipment availability while enforcing real business rules. The system needed to support both customer-facing rental requests and employee-side rental processing.",
@@ -26,10 +26,10 @@ window.portfolioProjects = [
     }
   },
   {
-    title: "Independent Study AI Models",
-    slug: "independent-study-ai-models",
-    description: "Custom AI models developed for property management assistance, tenant communication, and memory systems.",
-    tech: ["Python", "AI Development", "Databases"],
+    title: "Tenant AI System",
+    slug: "tenant-ai-system",
+    description: "Python-based AI system for tenant communication, lease parsing, memory, and database-backed context.",
+    tech: ["Python", "PostgreSQL", "Prompt Engineering"],
     repo: "https://github.com/smozer20-web/tenant-ai-system",
     ccarr: {
       challenge: "The challenge of this independent study project was building an AI-assisted property management system that could respond to tenant questions in a natural and useful way while retaining relevant context from leases and previous interactions. The goal was to make AI responses more practical and grounded in real property management operations.",
@@ -41,8 +41,8 @@ window.portfolioProjects = [
   {
     title: "Skihi Trailhead and Campground Project Management Plan",
     slug: "skihi-trailhead-and-campground-project-management-plan",
-    description: "Large-scale project planning documentation including charter, business case, scheduling, budgeting, risks, and quality planning.",
-    tech: ["Project Management", "Planning", "Documentation"],
+    description: "Large-scale project planning documentation for a multi-year trailhead and campground development project.",
+    tech: ["ProjectLibre", "Microsoft Word", "Excel", "Project Planning"],
     repo: "https://github.com/smozer20-web/skihi-project-management-plan",
     ccarr: {
       challenge: "The challenge of this project was creating a complete project management plan for a large-scale trailhead and campground development project that would realistically span multiple years. The project required balancing scope, budget, scheduling, risks, quality planning, and long-term deliverables while maintaining realistic project structure.",
@@ -54,8 +54,8 @@ window.portfolioProjects = [
   {
     title: "Trailhead and Campground Web Services Application",
     slug: "trailhead-and-campground-web-services-application",
-    description: "Web services application for trailhead and campground management with API-based data interaction.",
-    tech: ["Web APIs", "C#", ".NET"],
+    description: ".NET Web API and MVC client application for trailhead and campground management.",
+    tech: ["C#", ".NET Web API", "Entity Framework"],
     repo: "https://github.com/smozer20-web/trailhead-web-services",
     ccarr: {
       challenge: "The challenge of this project was designing a web service system that could manage trailhead and campground data while keeping the API and client application separated. The system needed to provide clean data access, filtering options, administrative controls, and responsive user interaction without relying on full page reloads.",
@@ -67,8 +67,8 @@ window.portfolioProjects = [
   {
     title: "Client-Side Property Management Web Application",
     slug: "client-side-property-management-web-application",
-    description: "Frontend property management website connected to the Java backend and PostgreSQL database.",
-    tech: ["HTML", "CSS", "JavaScript"],
+    description: "Frontend property management website connected to backend maintenance and tenant workflows.",
+    tech: ["HTML", "CSS", "JavaScript", "Vite"],
     repo: "https://github.com/smozer20-web/property-management-web-application",
     ccarr: {
       challenge: "The challenge of this project was creating a practical and user-friendly property management website that could present rental information clearly while supporting tenant interactions and operational workflows. The goal was to build something useful beyond a simple static website.",
@@ -80,8 +80,8 @@ window.portfolioProjects = [
   {
     title: "GemEconomy Minecraft Plugin",
     slug: "gemeconomy-minecraft-plugin",
-    description: "Custom Minecraft plugin with economy systems, jobs, and vendor interactions.",
-    tech: ["Java", "Spigot/Paper API", "YAML"],
+    description: "Custom Minecraft plugin with economy systems, job progression, vendors, commands, and player data.",
+    tech: ["Java", "Paper API", "Maven", "YAML"],
     repo: "https://github.com/smozer20-web/gemeconomy-plugin",
     ccarr: {
       challenge: "The challenge of this project was creating a large-scale Minecraft server plugin that could introduce a custom economy system, job progression, and vendor interactions while integrating cleanly into the Minecraft server environment. The project required learning how Minecraft server APIs work, designing balanced gameplay systems, and creating an expandable structure for future updates.",
@@ -91,9 +91,9 @@ window.portfolioProjects = [
     }
   },
   {
-    title: "CSCI 299 New Project - Ticketing System Feature Development",
-    slug: "csci-299-new-project-ticketing-system-feature-development",
-    description: "Feature development for a ticketing system including user role management and ticket attachment systems.",
+    title: "Ticketing System Feature Development",
+    slug: "ticketing-system-feature-development",
+    description: "Spring Boot feature development for user application roles and ticket attachment workflows.",
     tech: ["Java", "Spring Boot", "PostgreSQL", "Thymeleaf"],
     repo: "https://github.com/smozer20-web/ticketing-system-feature-development",
     ccarr: {

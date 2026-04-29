@@ -1,8 +1,10 @@
-# Computer Technology Developer Portfolio
+# Simon Mozer Portfolio Site
 
-Static developer portfolio website built with plain HTML, CSS, and JavaScript for GitHub Pages.
+This repository contains my professional software development portfolio website, built using HTML, CSS, and JavaScript and deployed through GitHub Pages.
 
-## Pages
+The site serves as a central location for showcasing my software development projects, technical skills, resume, career planning, and professional background.
+
+## Portfolio Sections
 
 - Home
 - About
@@ -11,26 +13,39 @@ Static developer portfolio website built with plain HTML, CSS, and JavaScript fo
 - Career Plan
 - Contact
 
-## Edit Content
+## Featured Project Areas
 
-- Update contact and profile text in the matching `.html` files.
-- Update project details in `js/projects-data.js`.
-- Replace `assets/resume.pdf` with the final resume file and keep the same filename.
-- Replace placeholder GitHub, LinkedIn, and email links before publishing.
+This portfolio includes work across multiple technical areas:
 
-## GitHub Pages Deployment
+- Java backend application development
+- .NET MVC business systems
+- AI-assisted tenant communication systems
+- Web API and client-side web services
+- Property management software tools
+- Minecraft plugin development
+- Project management documentation and planning
 
-1. Create a GitHub repository.
-2. Upload these files to the repository root.
-3. In GitHub, go to Settings > Pages.
-4. Set the source to the main branch and root folder.
-5. Save and open the published GitHub Pages URL after deployment finishes.
+## Technologies Used
 
-## Version Control Note
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
 
-Use meaningful commits as the site is updated. Examples:
+## Project Repositories
 
-- `Add portfolio site structure`
-- `Update project CCARR sections`
-- `Replace resume PDF`
-- `Add final GitHub repository links`
+Each portfolio project includes a direct GitHub repository link for source code, documentation, and development history.
+
+Main GitHub Profile:
+
+https://github.com/smozer20-web
+
+Live Portfolio Site:
+
+https://smozer20-web.github.io/portfolio-site/
+
+## Purpose
+
+This portfolio was developed as part of my Software Development degree program at Helena College, University of Montana, and serves as a collection of both academic and independent project work.
+
+It reflects my background in software development, property management operations, and practical problem-solving through technical systems.
