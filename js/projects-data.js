@@ -4,7 +4,7 @@ window.portfolioProjects = [
     slug: "java-ii-backend-application",
     description: "Java backend application connected to PostgreSQL that serves as the backend for a client-side web application.",
     tech: ["Java", "PostgreSQL", "Backend Development"],
-    repo: "https://github.com/your-username/java-ii-backend-application",
+    repo: "https://github.com/smozer20-web/java-backend-application",
     ccarr: {
       challenge: "The challenge of this project was creating a backend system that could act as the connection point between a client-side property management application and a PostgreSQL database. The backend needed to handle data storage and retrieval reliably while supporting the needs of the frontend application.",
       action: "I built the backend using Java and PostgreSQL, designing the application logic to manage property-related data and process requests coming from the client-side application. I focused on organizing data flow and maintaining clear separation between the frontend and database layers.",
@@ -17,7 +17,7 @@ window.portfolioProjects = [
     slug: "equipment-rental-system",
     description: ".NET application for managing rental inventory, customer rentals, returns, and equipment tracking.",
     tech: ["C#", ".NET", "MVC", "Entity Framework"],
-    repo: "https://github.com/your-username/equipment-rental-system",
+    repo: "https://github.com/smozer20-web/equipment-rental-system",
     ccarr: {
       challenge: "The challenge of this project was building a complete rental management system that could accurately track inventory, customer rentals, returns, and equipment availability while enforcing real business rules. The system needed to support both customer-facing rental requests and employee-side rental processing.",
       action: "I built the application using C#, .NET MVC, and Entity Framework, creating separate workflows for customers and employees. I implemented inventory quantity tracking, rental request conversion, return processing, overdue rental indicators, and category-based filtering to improve usability and accuracy.",
@@ -30,7 +30,7 @@ window.portfolioProjects = [
     slug: "independent-study-ai-models",
     description: "Custom AI models developed for property management assistance, tenant communication, and memory systems.",
     tech: ["Python", "AI Development", "Databases"],
-    repo: "https://github.com/your-username/independent-study-ai-models",
+    repo: "https://github.com/smozer20-web/tenant-ai-system",
     ccarr: {
       challenge: "The challenge of this independent study project was building an AI-assisted property management system that could respond to tenant questions in a natural and useful way while retaining relevant context from leases and previous interactions. The goal was to make AI responses more practical and grounded in real property management operations.",
       action: "I built the system in Python from the ground up, creating a tenant communication model with a custom-written prompt structure designed to reflect my own communication style and property management approach. I also developed a lease parsing system that reads lease documents, extracts relevant information, and stores it in a database for future AI reference and tenant support.",
@@ -43,7 +43,7 @@ window.portfolioProjects = [
     slug: "skihi-trailhead-and-campground-project-management-plan",
     description: "Large-scale project planning documentation including charter, business case, scheduling, budgeting, risks, and quality planning.",
     tech: ["Project Management", "Planning", "Documentation"],
-    repo: "https://github.com/your-username/skihi-project-management-plan",
+    repo: "https://github.com/smozer20-web/skihi-project-management-plan",
     ccarr: {
       challenge: "The challenge of this project was creating a complete project management plan for a large-scale trailhead and campground development project that would realistically span multiple years. The project required balancing scope, budget, scheduling, risks, quality planning, and long-term deliverables while maintaining realistic project structure.",
       action: "I developed a full project documentation package including the business case, project charter, scope statement, requirements planning, scheduling, budgeting, communication plans, risk management, quality management, status reporting, and project closure documentation. I used real-world planning practices and research-based references to make the documentation as realistic and technically grounded as possible.",
@@ -56,7 +56,7 @@ window.portfolioProjects = [
     slug: "trailhead-and-campground-web-services-application",
     description: "Web services application for trailhead and campground management with API-based data interaction.",
     tech: ["Web APIs", "C#", ".NET"],
-    repo: "https://github.com/your-username/trailhead-campground-web-services",
+    repo: "https://github.com/smozer20-web/trailhead-web-services",
     ccarr: {
       challenge: "The challenge of this project was designing a web service system that could manage trailhead and campground data while keeping the API and client application separated. The system needed to provide clean data access, filtering options, administrative controls, and responsive user interaction without relying on full page reloads.",
       action: "I built the backend using C# and .NET Web API with Entity Framework for data persistence, creating endpoints for trailhead and campground records, filtering by status, and availability tracking. I also developed a separate MVC client application that used JavaScript fetch requests to communicate with the API dynamically, along with admin authentication and session-based management features.",
@@ -69,7 +69,7 @@ window.portfolioProjects = [
     slug: "client-side-property-management-web-application",
     description: "Frontend property management website connected to the Java backend and PostgreSQL database.",
     tech: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/your-username/property-management-web-application",
+    repo: "https://github.com/smozer20-web/property-management-web-application",
     ccarr: {
       challenge: "The challenge of this project was creating a practical and user-friendly property management website that could present rental information clearly while supporting tenant interactions and operational workflows. The goal was to build something useful beyond a simple static website.",
       action: "I developed the frontend using HTML, CSS, and JavaScript, creating multiple pages for property listings, rental information, contact forms, and rental affordability tools. As the project evolved, I integrated it with my Java backend and PostgreSQL database to support maintenance ticket submissions, allowing tenant requests to connect directly into backend workflows and later integrate with my AI tenant communication model.",
@@ -82,7 +82,7 @@ window.portfolioProjects = [
     slug: "gemeconomy-minecraft-plugin",
     description: "Custom Minecraft plugin with economy systems, jobs, and vendor interactions.",
     tech: ["Java", "Spigot/Paper API", "YAML"],
-    repo: "https://github.com/your-username/gemeconomy-minecraft-plugin",
+    repo: "https://github.com/smozer20-web/gemeconomy-plugin",
     ccarr: {
       challenge: "The challenge of this project was creating a large-scale Minecraft server plugin that could introduce a custom economy system, job progression, and vendor interactions while integrating cleanly into the Minecraft server environment. The project required learning how Minecraft server APIs work, designing balanced gameplay systems, and creating an expandable structure for future updates.",
       action: "I built the GemEconomy plugin in Java as a Maven project using the Spigot/Paper API, implementing event listeners, custom commands, YAML-based configuration systems, player data persistence, and multiple gameplay systems including jobs, vendors, and reward mechanics. I spent several months researching server behavior, plugin architecture, and balancing game systems to create a functional and engaging player experience.",
@@ -95,7 +95,7 @@ window.portfolioProjects = [
     slug: "csci-299-new-project-ticketing-system-feature-development",
     description: "Feature development for a ticketing system including user role management and ticket attachment systems.",
     tech: ["Java", "Spring Boot", "PostgreSQL", "Thymeleaf"],
-    repo: "https://github.com/your-username/csci-299-ticketing-system",
+    repo: "https://github.com/smozer20-web/ticketing-system-feature-development",
     ccarr: {
       challenge: "The challenge of this capstone project was extending an existing multi-semester ticketing system without disrupting its current workflows. The project required implementing new user application role management features and early ticket attachment functionality while maintaining compatibility with an established codebase and database structure.",
       action: "I completed four development sprints focused on user role assignment, role deactivation workflows, and preliminary ticket attachment mechanics using Java, Spring Boot, PostgreSQL, and Thymeleaf. The work required integrating new features into an existing architecture while preserving application stability and following the established project structure.",
