@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Developer portfolio for a graduating Computer Technology student.">
+  <title>Developer Portfolio | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Portfolio home">
+      <span class="brand-mark">CT</span>
+      <span class="brand-text">Computer Technology Portfolio</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Toggle navigation</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="projects.html" data-nav="projects">Projects</a>
+      <a href="resume.html" data-nav="resume">Resume</a>
+      <a href="career-plan.html" data-nav="career">Career Plan</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-band">
+      <div class="hero-content">
+        <p class="eyebrow">Graduating Computer Technology Student</p>
+        <h1>Building practical software with clean code, reliable data, and thoughtful user experiences.</h1>
+        <p class="hero-copy">
+          This portfolio highlights software systems, web applications, AI-assisted tools, and technical planning projects developed throughout my Computer Technology program at Helena College. My work combines technical development with real-world operational experience in property management, with a growing focus on frontend and full-stack application design.
+        </p>
+        <div class="button-row">
+          <a class="button button-primary" href="projects.html">View Projects</a>
+          <a class="button button-secondary" href="resume.html">Resume</a>
+          <a class="button button-ghost" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Portfolio technology overview">
+        <div class="visual-panel">
+          <div class="visual-toolbar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <pre><code>const portfolio = {
+  focus: "software development",
+  strengths: ["Java", ".NET", "databases"],
+  goal: "build useful systems"
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills Overview</p>
+        <h2>Technical foundation for full-stack and backend work</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Backend Development</h3>
+          <p>Java, C#, .NET, Spring Boot, MVC patterns, API design, and server-side application logic.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Databases</h3>
+          <p>PostgreSQL, relational data modeling, SQL queries, Entity Framework, and application persistence.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Frontend</h3>
+          <p>Responsive HTML, CSS, JavaScript, client-side application structure, and accessible interface design.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Professional Practice</h3>
+          <p>Project documentation, planning, risk analysis, GitHub repositories, version control, and clear communication.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Work</p>
+        <h2>Selected projects</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-item">
+          <p class="feature-number">01</p>
+          <h3>Java II Backend Application</h3>
+          <p>PostgreSQL-connected Java backend serving a client-side property management application.</p>
+          <a href="projects.html#java-ii-backend-application">Project details</a>
+        </article>
+        <article class="feature-item">
+          <p class="feature-number">02</p>
+          <h3>Equipment Rental System</h3>
+          <p>.NET MVC application for rental inventory, customer rentals, returns, and equipment tracking.</p>
+          <a href="projects.html#equipment-rental-system">Project details</a>
+        </article>
+        <article class="feature-item">
+          <p class="feature-number">03</p>
+          <h3>Independent Study AI Models</h3>
+          <p>Custom AI models for property management assistance, tenant communication, and memory systems.</p>
+          <a href="projects.html#independent-study-ai-models">Project details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section split-section">
+      <div>
+        <p class="eyebrow">Version Control</p>
+        <h2>GitHub-centered workflow</h2>
+      </div>
+      <div class="prose">
+        <p>
+          Project work is organized in GitHub repositories to show code history, feature development, issue tracking, and documentation. Each project card includes a repository link placeholder that can be updated when the final GitHub Pages version is published.
+        </p>
+        <a class="text-link" href="https://github.com/your-username" target="_blank" rel="noreferrer">Visit GitHub profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Computer Technology Portfolio. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
